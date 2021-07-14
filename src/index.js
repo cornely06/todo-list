@@ -1,1 +1,1 @@
-console.log('test');
+import init from './init.js'
