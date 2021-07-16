@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.titleBar {
+    display: flex;
+    height: 20vh;
+    background-color: darkolivegreen;
+    align-items: center;
+}
+
+.titleBar p {
+    font-size: 2em;
+    margin-left: 80%;
+}
+
+.content {
+    display: flex;
+    height: 80vh;
+}
+
+.nav {
+    flex: 0 0 200px;
+    background-color: blue;
+}
+
+.nav div {
+    
+}
+
+.project {
+    width: 100%;
+    background-color: red;
+}
