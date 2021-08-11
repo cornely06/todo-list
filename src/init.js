@@ -17,7 +17,6 @@ function titleBar(){
 function navSection() {
     const nav = document.createElement('div');
     nav.classList.add('nav');
-    nav.appendChild(paragraph('boo'));
     nav.appendChild(navButtons());
     return nav;
 }

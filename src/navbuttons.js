@@ -8,9 +8,10 @@ function createButton(text, id) {
 
 function navButtons() {
     const navButtons = document.createElement('div');
+    navButtons.classList.add('navButtons');
     navButtons.appendChild(createButton('New Project', 'new-project'));
-    navButtons.appendChild(createButton('Project List', 'project-list'));
     navButtons.appendChild(createButton('New Task', 'new-task'));
+    navButtons.appendChild(createButton('Project List', 'project-list'));
     return navButtons;
 }
 

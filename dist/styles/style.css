@@ -9,7 +9,7 @@
 .titleBar {
     display: flex;
     height: 20vh;
-    background-color: darkolivegreen;
+    background-color: darkgray;
     align-items: center;
 }
 
@@ -24,15 +24,22 @@
 }
 
 .nav {
+    display: flex;
     flex: 0 0 200px;
-    background-color: blue;
+    background-color: darkslategrey;
 }
 
-.nav div {
-    
+.navButtons {
+    display: flex;
+    flex-direction: column;
+    margin: 20vh auto 0 auto;
+}
+
+.navButton {
+    width: 100px;
 }
 
 .project {
     width: 100%;
-    background-color: red;
+    background-color: cornsilk;
 }
